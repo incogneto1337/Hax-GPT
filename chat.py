@@ -70,6 +70,7 @@ def getchat():
                     "Type 'quit' or 'exit' to end the session.\n")
     
     clear_screen()
+    print("\n")
     print_centered_block(header, padding=4, bottom_padding=1, style="bold cyan")
     print_centered_block(instructions, padding=4, bottom_padding=1, style="italic green")
 
